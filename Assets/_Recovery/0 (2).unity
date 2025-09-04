@@ -580,9 +580,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2050136270}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab7f6544274fb4646ada1bdcd9c673ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ab5f5842ca05d14986365976f5d645a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ConstantDemo
+  m_EditorClassIdentifier: Assembly-CSharp::VariableComma
 --- !u!114 &2050136278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -592,9 +592,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2050136270}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e400596e9a630564a83379536ea24933, type: 3}
+  m_Script: {fileID: 11500000, guid: ceb84a03de5a3dc4788f74e1d9d26ef7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::integerDemo
+  m_EditorClassIdentifier: Assembly-CSharp::Literal
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
