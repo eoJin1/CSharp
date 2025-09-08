@@ -398,7 +398,6 @@ GameObject:
   - component: {fileID: 537547789}
   - component: {fileID: 537547790}
   - component: {fileID: 537547791}
-  - component: {fileID: 537547792}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: Untagged
@@ -478,26 +477,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 537547784}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1638f4a32761ae418cef51936da51a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 6eccb28ae857ff9408557449d252cbce, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GreaterThanEqaul
-  first: 1
-  second: 8
+  m_EditorClassIdentifier: Assembly-CSharp::ElseNote
+  score: 69
 --- !u!114 &537547791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537547784}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f329b2707eb76e41bfa2f95e9839970, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NumberDifference
-  first: 4
-  second: 3
---- !u!114 &537547792
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -506,10 +490,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 537547784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a85b7d89844e3a44bc0c7abc9d79a4e, type: 3}
+  m_Script: {fileID: 11500000, guid: e1638f4a32761ae418cef51936da51a5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CharDemo
-  c: 70
+  m_EditorClassIdentifier: Assembly-CSharp::GreaterThanEqaul
+  first: 0
+  second: 0
 --- !u!1 &813743455
 GameObject:
   m_ObjectHideFlags: 0
