@@ -27,8 +27,6 @@ public class SequenceDemo : MonoBehaviour
 - 제어문 : 프로그램의 흐름(순서)를 정하는 명령문
 [1]순차문 : 기본적으로 모든 명령문은 순서대로 (위에서 아래로) 실행된다
 [2]조건문 : if, switch 등 
-[3]반복문 :
-[4]기타 : 
-
-
+[3]반복문 : for, while...
+[4]기타 : ?
 */
