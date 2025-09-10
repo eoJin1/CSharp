@@ -18,7 +18,6 @@ public class SequenceDemo : MonoBehaviour
         Debug.Log($"총점: {total}");
         Debug.Log($"평균: {avg:F1}"); //F1 - 소수점 한자리까지만 출력. 실수를 출력할때는 포맷을 정해주는게 좋음
 
-
     }
 
 }
