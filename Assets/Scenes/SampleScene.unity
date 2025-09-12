@@ -432,7 +432,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1256913205
+--- !u!1 &1932542107
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -440,9 +440,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1256913207}
-  - component: {fileID: 1256913206}
-  - component: {fileID: 1256913208}
+  - component: {fileID: 1932542109}
+  - component: {fileID: 1932542108}
+  - component: {fileID: 1932542110}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -450,25 +450,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1256913206
+--- !u!114 &1932542108
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1256913205}
+  m_GameObject: {fileID: 1932542107}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfd40ac507e073045a0fed3cdebf849e, type: 3}
+  m_Script: {fileID: 11500000, guid: aac049693a639d845a8ad2dda366f384, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StructureDemo
---- !u!4 &1256913207
+  m_EditorClassIdentifier: Assembly-CSharp::StringClass
+--- !u!4 &1932542109
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1256913205}
+  m_GameObject: {fileID: 1932542107}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: -0}
@@ -477,18 +477,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1256913208
+--- !u!114 &1932542110
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1256913205}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1932542107}
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50ed996dcb962b349a399fe8c7be3896, type: 3}
+  m_Script: {fileID: 11500000, guid: 9046359dc97dbac4aa247ccfb5ee71ff, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StructureNote
+  m_EditorClassIdentifier: Assembly-CSharp::StringDisplay
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -496,4 +496,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1256913207}
+  - {fileID: 1932542109}
