@@ -18,8 +18,13 @@ namespace Constructor
         {
             this.serviceName = service;
         }
+
         //메서드
+        public void Run()
+        {
+            Debug.Log($"{serviceName}를 실행합니다");
+        }
 
     }
-    
+
 }

@@ -3,21 +3,20 @@ using NUnit.Framework.Internal;
 using UnityEngine;
 namespace Constructor
 {
-    public class ConstructorToDestructor : MonoBehaviour
+    public class ContructorToDestructor : MonoBehaviour
     {
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            //DestructorTest 클래스 인스턴스 생성
-            DestructorTest test = new DestructorTest();
+            //DestructerTest 클래스 인스턴스 생성
+            DestructerTest test = new DestructerTest();
 
             //사용
-            //test.Run();
+            test.Run();
 
-            //소멸 : 가비지컬렉터(GC)가 알아서 한다
-            //~ DestructorTest();
+            //소멸: 가비지컬렉터(GC)가 알아서 한다
+            //~DestructerTest();
         }
-
     }
 }
 /*
