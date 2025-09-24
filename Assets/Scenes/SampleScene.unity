@@ -393,6 +393,8 @@ GameObject:
   m_Component:
   - component: {fileID: 672477045}
   - component: {fileID: 672477044}
+  - component: {fileID: 672477046}
+  - component: {fileID: 672477047}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -407,7 +409,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672477043}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c2b8bc582028ac04e8f15b144461316b, type: 3}
   m_Name: 
@@ -427,6 +429,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &672477046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672477043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 534552486c7fe8547969980055e744ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Max
+--- !u!114 &672477047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672477043}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86dd9ef78da9fb64996f73f5cc275513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Min
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
