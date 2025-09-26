@@ -1,18 +1,16 @@
 using UnityEngine;
-namespace Generic
+namespace Genenric
 {
     public class GenericPractice : MonoBehaviour
     {
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            /*
             //MyList<T> 인스턴스 생성 - int 전용
-            MyList<int> numbers new MyList<int>(3);
+            MyList<int> numbers = new MyList<int>(3);
             numbers[0] = 10;
             numbers[1] = 20;
             numbers[2] = 30;
-
             for (int i = 0; i < numbers.Length; i++)
             {
                 Debug.Log(numbers[i]);
@@ -28,9 +26,8 @@ namespace Generic
             {
                 Debug.Log(name);
             }
-            */
+
 
         }
-
     }
 }

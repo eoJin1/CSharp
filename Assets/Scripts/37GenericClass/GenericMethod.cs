@@ -1,5 +1,6 @@
+using Generic;
 using UnityEngine;
-namespace Generic
+namespace Genenric
 {
     public class GenericMethod : MonoBehaviour
     {
@@ -10,7 +11,11 @@ namespace Generic
             Hello<int> hi = new Hello<int>();
             Debug.Log(hi.GetMessage());
             hi.Say(1234);
-        }
 
+            Hello<string> hello = new Hello<string>("안녕하세요");
+            Debug.Log(hello.GetMessage());
+            hello.Say("반갑습니다");
+
+        }
     }
 }
